@@ -1,0 +1,85 @@
+.matador-resolution{
+    background-position: center;
+    width: 700px;
+    height: 350px;
+    background-size: cover;
+}
+
+.dekundamatador{
+    width: 430px;
+    height: 280px;
+    border: 30px;
+}
+
+
+.article{
+    background-color: rgb(152, 115, 84);
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    float: left;
+}
+
+.whoisMatador{
+
+    width: 550px;
+    height: 300px;
+    border: 25px;
+    padding-right: 25px;
+}
+
+.aside{
+    
+    background-color: rgb(152, 115, 84);
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    float: right;
+}
+
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.small{
+    width: 500px;
+    height: 500px;
+}
+
+.footer{
+    background-color: rgb(215, 189, 165);
+
+}
+
+.borders{
+    border-style: solid;    
+}
+
+#textos{
+    color: rgb(13, 11, 8 );
+}
+
+#textos2{
+    color: rgb(13, 11, 8 );
+    padding: 4px;
+}
+
+#textos3{
+    color: rgb(13, 11, 8 );
+    padding-left: 5px;
+}
+
+#textoCarrusel{
+    color: rgb(224, 224, 224);
+
+}
+
+#Información{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+.contactenos{
+    font-size: 15px;
+}

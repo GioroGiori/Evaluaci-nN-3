@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Giovanni Romero Brito-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de puesto de trabajo</title>
+    <link rel="stylesheet" href="Estilo_formulario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--Javascript-->
+    <script type="text/javascript" src="Validacion.js"></script>
+    
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</head>
+<body style="background-color: rgb(163, 151, 212);">
+ 
+
+    <div class="container espacio">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="IMG/Gioro_Game_Journalist.png" alt="" width="50px" height="50px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">World of Warcraft</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kingdom Hearts 3</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Persona Series
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Persona 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Persona 4</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Persona 5</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shin Megami Tensei Series
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Shin Megami Tensei Nocturne</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Shin Megami Tensei V</a></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sword Art Online Games
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Infinity Moment</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Hollow Realization</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Lost Song</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Accel World vs Sword Art Online</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Hollow Realization</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Fatal Bullet</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Alicization Lycoris</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contactenos" aria-current="page" href="#">Contactenos</a>
+                      </li>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          <br>
+          
+        <a href="#"><img src="img/Gioro_Game_Journalist.png" alt="Need help?" width="130px" height="130px" class="Logo"> </a>
+        <h2 class="titulo">¿Necesita trabajo? Llene este formulario y nos pondremos en contacto</h2>
+        
+        <br>
+        <div class="row g-3">
+            <div class="col-xs-12 col-sm-6">
+                <form action="#" method="# " name="formulario" id="formulario">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">RUT</label>
+                      <input type="text" class="form-control" id="txt_rut" aria-describedby="rut" name="txt_rut" placeholder="XXXXXXXX-X"
+                       required >
+                      <div id="emailHelp" class="form-text">Obligatorio</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="txt_nombreApellido" aria-describedby="emailHelp" name="txt_nombreApellido" required >
+                      <div id="emailHelp" class="form-text">Obligatorio</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="txt_nombreApellido" aria-describedby="emailHelp" name="txt_nombreApellido" required >
+                      <div id="emailHelp" class="form-text">Obligatorio</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                      <input type="email" class="form-control" id="txt_correo" name="txt_correo" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for=""class="">Compañia</label>
+                        <select class="form-select" name="txt_compañia" id="txt_compañia" required>
+
+
+
+                            <option value="" type="text" name="text" id="text" ></option>
+                            <option value="" type="text" name="text" id="text">Entel</option> 
+                            <option value="" type="text" name="text" id="text">Claro</option> 
+                            <option value="" type="text" name="text" id="text">WOM</option> 
+                            <option value="" type="text" name="text" id="text">Movistar</option> 
+
+                    </select>
+
+
+                    <div class="mb-3">
+                      <label for="exampleInputNumber" class="form-label">Telefono</label>
+                      <input type="number" class="form-control" id="txt_numero" name="txt_numero" aria-describedby="number" placeholder="987720199" required>
+                    </div>
+
+
+
+                    </div>
+                    </div>
+                
+                    <label for="" class="text-justify"><h3>Puesto</h3></label>
+                    <br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required >
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Creador de Guias
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Prueba-Juegos
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" required >
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          Corrector
+                        </label>
+                      </div>
+
+                    <br>
+                    <br>
+                    
+                    <div class="col-xm-12 col-sm-6">
+                    <label for="">Perfil Laboral</label>
+                    <textarea class="form-control" name="txt_minData" id="txt_minData" cols="30" rows="5" required></textarea>
+                    <br>
+                    </div>
+                
+
+
+                      
+                  <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" required >
+                      <label class="form-check-label" for="flexSwitchCheckDefault" id="TyC">Al marcar esto, estoy de acuerdo con los terminos y condiciones</label>
+                    
+                  </div>
+                  <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" >
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Marque para recibir una notificación por correo acerca del trabajo</label>
+                  </div>
+                
+                  <div class="col-xs-12 col-sm-6">
+                  <button type="submit" class="btn btn-primary" id="txt_time" onclick="javascript:void(validación())"> Enviar</button>
+                  <button type="reset" class="btn btn-danger">Limpiar pantalla</button>
+                  </div>
+                  </form>
+
+
+              
+
+
+            </div>
+        </div>
+
+    </div>
+    
+
+
+</body>
+</html>

@@ -14,7 +14,7 @@ function validación(){
     if(!expNombre.test(nombre.value)){
     
 
-        alert("Verifique su nombre porfavor");
+        alert("Verifique su nombre porfavor, el maximo de letras es 25");
         nombre.focus();
         return false;
     }
@@ -25,7 +25,7 @@ function validación(){
     let rut=document.getElementById("txt_rut")
     let rutformat = /^\d{8}-\d{1}$/;
     if(!rut.value.match(rutformat)){
-        alert("Revise su rut");
+        alert("Revise su rut si esta bien introducido o no");
         rut.focus();
         return false;
     }
